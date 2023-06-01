@@ -165,3 +165,12 @@ upperFirst("ciao mamma come mi diverto")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function giveMeRandom(n){
+    let arr=[]
+    for(let i =0; i < n; i++){
+        arr.push(Math.random()*10)
+    }
+    return arr
+}
+
+console.log(giveMeRandom(4))
